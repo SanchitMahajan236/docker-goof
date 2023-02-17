@@ -1,6 +1,6 @@
 FROM ghost:2.37.2 as ghost
 
-FROM node:14.21.2 as node
+FROM node:fermium-bullseye-slim as node
 
 # Copy manifest files
 COPY --from=ghost /var/lib/ghost /var/lib/ghost
