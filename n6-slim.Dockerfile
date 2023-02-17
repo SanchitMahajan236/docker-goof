@@ -1,4 +1,4 @@
-FROM node:14.21.2-slim
+FROM node:fermium-bullseye-slim
  
 RUN apt-get update -y
 RUN apt-get install -y imagemagick
