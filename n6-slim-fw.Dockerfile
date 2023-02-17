@@ -1,4 +1,4 @@
-FROM node:14.21.2-slim
+FROM node:fermium-bullseye-slim
 
 RUN apt-get update
 RUN apt-get install -y firewalld beep
